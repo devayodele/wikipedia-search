@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipedia Search</title>
+    <link rel="stylesheet" href="./style.css" tyoe="text/css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./wikipedia-logo.png" alt="wikipedia" />
+
+      <h1>Wikipedia Search</h1>
+
+      <input
+        type="text"
+        name="searchTerm"
+        id="searchTerm"
+        placeholder="Enter a search term..."
+        autofocus
+      />
+      <br />
+      <br />
+      <button id="btn">Wikipedia Search</button>
+    </header>
+
+    <div class="loading-indicator">
+      <div class="sk-chase js-spinner hidden">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+    </div>
+    <div id="searchResults"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
