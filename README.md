@@ -7,4 +7,4 @@ This repository contains a web app that searches Wikipedia and displays the top 
 In this repository:
 
 - Use of fetch() API to make HTTP GET requests.
-  Use of async/await keywords to make the asynchronous code looks cleaner.
+- Use of async/await keywords to make the asynchronous code looks cleaner.
